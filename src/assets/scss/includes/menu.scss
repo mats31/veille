@@ -29,6 +29,8 @@
 			text-align: center;
 			width: 16.66666666666667%;
 
+			transition: background-color .125s ease-in;
+
 			&:first-child{
 
 				a{
@@ -85,6 +87,8 @@
 				padding-top: 20px;
 				position: relative;
 				text-decoration: none;
+
+				transition: color .125s ease-in;
 
 				span{
 					font-size: 14px;
