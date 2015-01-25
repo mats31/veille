@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+percentShow = false;
 init();
 
 });
@@ -87,6 +88,9 @@ function events () {
 
 			$('.menu').removeClass('fixed');
 
+			$('.menu ul li').removeClass('active');
+			$('.menu ul li a').removeClass('active');
+
 		}
 
 		if ($(document).scrollTop() >= $('.introduction').offset().top - 50 && $(document).scrollTop() <= $('.transport').offset().top - 50) {
@@ -96,6 +100,12 @@ function events () {
 
 			$('.menu ul li:nth-child(2)').addClass('active');
 			$('.menu ul li:nth-child(2) a').addClass('active');
+
+		};
+
+		if ($(document).scrollTop() >= $('.content-introduction').offset().top - 50 && $(document).scrollTop() <= $('.transport').offset().top - 50) {
+
+			percentageAnimation();
 
 		};
 
@@ -141,4 +151,66 @@ function events () {
 
 	});
 
+	// Madjid
+
+	$('.menu-item').on('click', function(event){
+		if ( $(event.currentTarget).hasClass('menu-item-0') ) {
+			$('body').animate({
+				scrollTop: 0
+			}, 750);
+		}
+		else if ( $(event.currentTarget).hasClass('menu-item-1') ) {
+			$('body').animate({
+				scrollTop: $('.introduction').offset().top - 50
+			}, 750);
+		}
+		else if ( $(event.currentTarget).hasClass('menu-item-2') ) {
+			$('body').animate({
+				scrollTop: $('.transport').offset().top - 50
+			}, 750);
+		}
+		else if ( $(event.currentTarget).hasClass('menu-item-3') ) {
+			$('body').animate({
+				scrollTop: $('.logement').offset().top - 50
+			}, 750);
+		}
+		else if ( $(event.currentTarget).hasClass('menu-item-4') ) {
+			$('body').animate({
+				scrollTop: $('.activites').offset().top - 50
+			}, 750);
+		}
+		else if ( $(event.currentTarget).hasClass('menu-item-5') ) {
+			$('body').animate({
+				scrollTop: $('.conclusion').offset().top - 50
+			}, 750);
+		}
+		
+	})
+
 };
+
+
+// Madjid
+
+function percentageAnimation(){
+
+	if (!percentShow) {
+
+		percentShow = true;
+
+		percent = {
+			number: 0
+		};
+
+		TweenMax.to(percent, 3, {
+			number: 60,
+			ease: Quad.easeIn,
+			onUpdate: function(){
+				$('#introduction-percentage').html(Math.round(percent.number) + '%');
+			}
+		});
+
+
+	}
+
+}
