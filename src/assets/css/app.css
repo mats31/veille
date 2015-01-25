@@ -1,0 +1,519 @@
+/** Fonts **/
+@font-face {
+  font-family: "montserratRegular";
+  /* pour IE */
+  src: url('../fonts/montserrat-regular-webfont.eot');
+  /* Pour IE9 Compat mode */
+  src: url('../fonts/montserrat-regular-webfont.eot?') format('eot'), url('../fonts/montserrat-regular-webfont.woff') format('woff'), url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg'), url('../fonts/montserrat-regular-webfont.ttf') format('truetype'); }
+
+@font-face {
+  font-family: "montserratBold";
+  /* pour IE */
+  src: url('../fonts/montserrat-bold-webfont.eot');
+  /* Pour IE9 Compat mode */
+  src: url('../fonts/montserrat-bold-webfont.eot?') format('eot'), url('../fonts/montserrat-bold-webfont.woff') format('woff'), url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg'), url('../fonts/montserrat-bold-webfont.ttf') format('truetype'); }
+
+html, body {
+  font-size: 62.5%; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px; }
+
+.content {
+  background-color: #e6e6e6; }
+  .content header h3 {
+    font-family: 'montserratBold';
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 0; }
+  .content p {
+    font-family: 'montserratRegular';
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin: 20px 0 0 0; }
+  .content article h3 {
+    padding: 80px 11.11111% 0 11.11111%; }
+  .content article p {
+    padding: 0 11.11111% 80px 11.11111%; }
+
+.activites .title {
+  background-color: #ff9999;
+  position: relative; }
+.activites h2 {
+  color: #333333;
+  font-family: 'montserratBold';
+  font-size: 40px;
+  font-size: 4rem;
+  padding: 0 0 50px 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%; }
+  .activites h2 .white-line {
+    background-color: #ffffff;
+    display: block;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    width: 80px; }
+.activites .content .container {
+  background-image: url('../img/activites-background.png');
+  background-repeat: no-repeat;
+  background-position: 0 150px;
+  position: relative; }
+.activites .content article:first-child {
+  background-color: #ffffff;
+  bottom: 80px;
+  position: relative;
+  width: 66.66667%; }
+  .activites .content article:first-child h3 {
+    color: #ff9999; }
+    .activites .content article:first-child h3 .orange-line {
+      background-color: #ff9999;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+.activites .content article:nth-child(2) {
+  background-color: #ffffff;
+  left: 50%;
+  position: relative;
+  margin-top: 120px;
+  width: 50%; }
+  .activites .content article:nth-child(2) h3 {
+    color: #ff9999; }
+    .activites .content article:nth-child(2) h3 .orange-line {
+      background-color: #ff9999;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+
+.conclusion .title {
+  background-color: #ffc68c;
+  position: relative; }
+.conclusion h2 {
+  color: #333333;
+  font-family: 'montserratBold';
+  font-size: 40px;
+  font-size: 4rem;
+  padding: 0 0 50px 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%; }
+  .conclusion h2 .white-line {
+    background-color: #ffffff;
+    display: block;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    width: 80px; }
+.conclusion .content .container {
+  background-image: url('../img/conclusion-background.png');
+  background-repeat: no-repeat;
+  background-position: 0 150px;
+  position: relative; }
+.conclusion .content article:first-child {
+  background-color: #ffffff;
+  bottom: 80px;
+  position: relative;
+  width: 50%; }
+  .conclusion .content article:first-child h3 {
+    color: #ffc68c; }
+    .conclusion .content article:first-child h3 .brown-line {
+      background-color: #ffc68c;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+.conclusion .content article:nth-child(2) {
+  background-color: #ffc68c;
+  left: 50%;
+  margin-top: 190px;
+  position: relative;
+  top: 50px;
+  width: 50%;
+  z-index: 2; }
+  .conclusion .content article:nth-child(2) h3 {
+    color: #ffffff; }
+    .conclusion .content article:nth-child(2) h3 .white-line {
+      background-color: #ffffff;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+
+.home {
+  position: relative; }
+  .home h1 {
+    color: #333333;
+    font-family: 'montserratBold';
+    font-size: 40px;
+    font-size: 4rem;
+    padding: 0 4.16667% 50px 4.16667%;
+    position: absolute;
+    text-align: center;
+    top: 50%; }
+    .home h1 .black-line {
+      background-color: #000000;
+      display: block;
+      height: 10px;
+      margin: 0 auto;
+      position: relative;
+      top: 25px;
+      width: 80px; }
+
+.introduction .title {
+  background-color: #9999ff;
+  position: relative; }
+.introduction h2 {
+  color: #333333;
+  font-family: 'montserratBold';
+  font-size: 40px;
+  font-size: 4rem;
+  padding: 0 0 50px 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%; }
+  .introduction h2 .white-line {
+    background-color: #ffffff;
+    display: block;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    width: 80px; }
+.introduction .content {
+  position: relative; }
+  .introduction .content .container {
+    background-image: url('../img/introduction-background.png');
+    background-repeat: no-repeat;
+    background-position: 0 150px; }
+  .introduction .content article:first-child {
+    background-color: #ffffff;
+    bottom: 80px;
+    position: relative;
+    width: 50%; }
+    .introduction .content article:first-child h3 {
+      color: #9999ff; }
+      .introduction .content article:first-child h3 .purple-line {
+        background-color: #9999ff;
+        display: block;
+        height: 4px;
+        position: relative;
+        top: 7px;
+        width: 60px; }
+  .introduction .content article:nth-child(2) {
+    background-color: #9999ff;
+    bottom: 170px;
+    left: 50%;
+    position: relative;
+    width: 50%; }
+    .introduction .content article:nth-child(2) h3 {
+      color: #ffffff; }
+      .introduction .content article:nth-child(2) h3 .white-line {
+        background-color: #ffffff;
+        display: block;
+        height: 4px;
+        position: relative;
+        top: 7px;
+        width: 60px; }
+    .introduction .content article:nth-child(2) p {
+      font-family: 'montserratBold';
+      font-size: 18px;
+      font-size: 1.8rem;
+      text-align: center; }
+      .introduction .content article:nth-child(2) p span {
+        display: block;
+        font-family: 'montserratBold';
+        font-size: 90px;
+        font-size: 9rem; }
+  .introduction .content article:nth-child(3) {
+    background-color: #ffffff;
+    left: 25%;
+    position: relative;
+    width: 66.66667%; }
+    .introduction .content article:nth-child(3) h3 {
+      color: #9999ff; }
+      .introduction .content article:nth-child(3) h3 .purple-line {
+        background-color: #9999ff;
+        display: block;
+        height: 4px;
+        position: relative;
+        top: 7px;
+        width: 60px; }
+
+.logement .title {
+  background-color: #ff99cc;
+  position: relative; }
+.logement h2 {
+  color: #333333;
+  font-family: 'montserratBold';
+  font-size: 40px;
+  font-size: 4rem;
+  padding: 0 0 50px 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%; }
+  .logement h2 .white-line {
+    background-color: #ffffff;
+    display: block;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    width: 80px; }
+.logement .content .container {
+  background-image: url('../img/logement-background.png');
+  background-repeat: no-repeat;
+  background-position: 0 150px;
+  position: relative; }
+.logement .content article:first-child {
+  background-color: #ffffff;
+  bottom: 80px;
+  position: relative;
+  width: 66.66667%; }
+  .logement .content article:first-child h3 {
+    color: #ff99cc; }
+    .logement .content article:first-child h3 .pink-line {
+      background-color: #ff99cc;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+.logement .content article:nth-child(2) {
+  background-color: #ff99cc;
+  bottom: 80px;
+  left: 33.33333%;
+  margin-top: 190px;
+  position: relative;
+  width: 66.66667%; }
+  .logement .content article:nth-child(2) h3 {
+    color: #ffffff; }
+    .logement .content article:nth-child(2) h3 .white-line {
+      background-color: #ffffff;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+.logement .content article:nth-child(3) {
+  background-color: #ffffff;
+  bottom: 80px;
+  left: 33.33333%;
+  position: relative;
+  width: 50%; }
+  .logement .content article:nth-child(3) h3 {
+    color: #ff99cc; }
+    .logement .content article:nth-child(3) h3 .pink-line {
+      background-color: #ff99cc;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+
+.menu {
+  background-color: #000000;
+  height: 50px;
+  margin-top: -50px; }
+  .menu.fixed {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 3; }
+  .menu nav {
+    height: 100%; }
+  .menu ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    .menu ul li {
+      font-family: 'montserratBold';
+      font-size: 8px;
+      font-size: 0.8rem;
+      float: left;
+      height: 100%;
+      list-style: none;
+      text-align: center;
+      width: 16.66667%; }
+      .menu ul li:first-child a {
+        bottom: 0;
+        font-size: 10px;
+        font-size: 1rem; }
+      .menu ul li:nth-child(2).active {
+        background-color: #9999ff; }
+      .menu ul li:nth-child(2) a {
+        color: #9999ff; }
+      .menu ul li:nth-child(2) a.active {
+        color: #333333; }
+      .menu ul li:nth-child(3).active {
+        background-color: #cc99ff; }
+      .menu ul li:nth-child(3) a {
+        color: #cc99ff; }
+      .menu ul li:nth-child(3) a.active {
+        color: #333333; }
+      .menu ul li:nth-child(4).active {
+        background-color: #ff99cc; }
+      .menu ul li:nth-child(4) a {
+        color: #ff99cc; }
+      .menu ul li:nth-child(4) a.active {
+        color: #333333; }
+      .menu ul li:nth-child(5).active {
+        background-color: #ff9999; }
+      .menu ul li:nth-child(5) a {
+        color: #ff9999; }
+      .menu ul li:nth-child(5) a.active {
+        color: #333333; }
+      .menu ul li:nth-child(6).active {
+        background-color: #ffcc99; }
+      .menu ul li:nth-child(6) a {
+        color: #ffcc99; }
+      .menu ul li:nth-child(6) a.active {
+        color: #333333; }
+      .menu ul li a {
+        bottom: 4px;
+        color: #ffffff;
+        display: block;
+        padding-top: 20px;
+        position: relative;
+        text-decoration: none; }
+        .menu ul li a span {
+          font-size: 14px;
+          font-size: 1.4rem;
+          position: relative;
+          top: 1px; }
+
+.merci .title {
+  background-color: #333333;
+  position: relative; }
+.merci h2 {
+  color: #ffc68c;
+  font-family: 'montserratBold';
+  font-size: 40px;
+  font-size: 4rem;
+  padding: 0 0 50px 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%; }
+  .merci h2 span {
+    color: #ffffff; }
+.merci .content .container {
+  background-image: url('../img/conclusion-background.png');
+  background-repeat: no-repeat;
+  background-position: 0 150px;
+  position: relative; }
+.merci .content article:first-child {
+  background-color: #ffffff;
+  bottom: 80px;
+  position: relative;
+  width: 50%; }
+  .merci .content article:first-child h3 {
+    color: #ffc68c; }
+    .merci .content article:first-child h3 .brown-line {
+      background-color: #ffc68c;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+.merci .content article:nth-child(2) {
+  background-color: #ffc68c;
+  left: 50%;
+  margin-top: 190px;
+  position: relative;
+  top: 50px;
+  width: 50%; }
+  .merci .content article:nth-child(2) h3 {
+    color: #ffffff; }
+    .merci .content article:nth-child(2) h3 .white-line {
+      background-color: #ffffff;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+
+.transport .title {
+  background-color: #cc99ff;
+  position: relative; }
+.transport h2 {
+  color: #333333;
+  font-family: 'montserratBold';
+  font-size: 40px;
+  font-size: 4rem;
+  padding: 0 0 50px 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%; }
+  .transport h2 .white-line {
+    background-color: #ffffff;
+    display: block;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    width: 80px; }
+.transport .content .container {
+  background-image: url('../img/transport-background.png');
+  background-repeat: no-repeat;
+  background-position: 0 150px;
+  position: relative; }
+.transport .content article:first-child {
+  background-color: #ffffff;
+  bottom: 80px;
+  left: 50%;
+  position: relative;
+  width: 50%; }
+  .transport .content article:first-child h3 {
+    color: #cc99ff; }
+    .transport .content article:first-child h3 .pink-line {
+      background-color: #cc99ff;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+.transport .content article:nth-child(2) {
+  background-color: #cc99ff;
+  bottom: 80px;
+  left: 41.66667%;
+  position: relative;
+  width: 58.33333%; }
+  .transport .content article:nth-child(2) h3 {
+    color: #ffffff; }
+    .transport .content article:nth-child(2) h3 .white-line {
+      background-color: #ffffff;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }
+.transport .content article:nth-child(3) {
+  background-color: #ffffff;
+  position: relative;
+  width: 50%; }
+  .transport .content article:nth-child(3) h3 {
+    color: #cc99ff; }
+    .transport .content article:nth-child(3) h3 .pink-line {
+      background-color: #cc99ff;
+      display: block;
+      height: 4px;
+      position: relative;
+      top: 7px;
+      width: 60px; }

@@ -1,0 +1,65 @@
+/** Fonts **/
+
+@font-face{
+    font-family : "montserratRegular";
+
+    /* pour IE */
+    src : url('../fonts/montserrat-regular-webfont.eot'); /* Pour IE9 Compat mode */
+    src : url('../fonts/montserrat-regular-webfont.eot?') format('eot'),
+    	  url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+          url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg'),
+          url('../fonts/montserrat-regular-webfont.ttf') format('truetype');
+}
+
+@font-face{
+    font-family : "montserratBold";
+
+    /* pour IE */
+    src : url('../fonts/montserrat-bold-webfont.eot'); /* Pour IE9 Compat mode */
+    src : url('../fonts/montserrat-bold-webfont.eot?') format('eot'),
+    	  url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+          url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg'),
+          url('../fonts/montserrat-bold-webfont.ttf') format('truetype');
+}
+
+html, body{
+  font-size: 62.5%;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.content{
+  background-color: #e6e6e6;
+  
+  header{
+
+    h3{
+      font-family: 'montserratBold';
+      font-size: 14px;
+      font-size: 1.4rem;
+      margin: 0;
+    }
+  }
+
+  p{
+    font-family: 'montserratRegular';
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin: 20px 0 0 0;
+  }
+
+  article{
+
+    h3{
+      padding: 80px 11.111111111111% 0 11.111111111111%;
+    }
+
+    p{
+      padding: 0 11.111111111111% 80px 11.111111111111%;
+    }
+  }
+}

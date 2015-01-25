@@ -1,0 +1,103 @@
+.logement{
+	
+	.title{
+		background-color: #ff99cc;
+		position: relative;
+	}
+
+	h2{
+		color: #333333;
+		font-family: 'montserratBold';
+		font-size: 40px;
+		font-size: 4rem;
+		padding: 0 0 50px 0;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 100%;
+
+		.white-line{
+			background-color: #ffffff;
+			display: block;
+			height: 10px;
+			margin: 0 auto;
+			position: relative;
+			top: 25px;
+			width: 80px;
+		}
+	}
+
+	.content{
+
+		.container{
+			background-image: url('../img/logement-background.png');
+			background-repeat: no-repeat;
+			background-position: 0 150px;
+			position: relative;
+		}
+
+		article:first-child{
+			background-color: #ffffff;
+			bottom: 80px;
+			position: relative;
+			width: 66.666666666667%;
+
+			h3{
+				color: #ff99cc;
+
+				.pink-line{
+					background-color: #ff99cc;
+					display: block;
+					height: 4px;
+					position: relative;
+					top: 7px;
+					width: 60px;
+				}
+			}
+		}
+
+		article:nth-child(2){
+			background-color: #ff99cc;
+			bottom: 80px;
+			left: 33.333333333333%;
+			margin-top: 190px;
+			position: relative;
+			width: 66.666666666667%;
+
+			h3{
+				color: #ffffff;
+
+				.white-line{
+					background-color: #ffffff;
+					display: block;
+					height: 4px;
+					position: relative;
+					top: 7px;
+					width: 60px;
+				}
+			}
+
+		}
+
+		article:nth-child(3){
+			background-color: #ffffff;
+			bottom: 80px;
+			left: 33.333333333333%;
+			position: relative;
+			width: 50%;
+
+			h3{
+				color: #ff99cc;
+
+				.pink-line{
+					background-color: #ff99cc;
+					display: block;
+					height: 4px;
+					position: relative;
+					top: 7px;
+					width: 60px;
+				}
+			}
+		}
+	}
+}

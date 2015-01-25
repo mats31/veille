@@ -1,0 +1,76 @@
+.merci{
+	
+	.title{
+		background-color: #333333;
+		position: relative;
+	}
+
+	h2{
+		color: #ffc68c;
+		font-family: 'montserratBold';
+		font-size: 40px;
+		font-size: 4rem;
+		padding: 0 0 50px 0;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 100%;
+
+		span{
+			color: #ffffff;
+		}
+	}
+
+	.content{
+
+		.container{
+			background-image: url('../img/conclusion-background.png');
+			background-repeat: no-repeat;
+			background-position: 0 150px;
+			position: relative;
+		}
+
+		article:first-child{
+			background-color: #ffffff;
+			bottom: 80px;
+			position: relative;
+			width: 50%;
+
+			h3{
+				color: #ffc68c;
+
+				.brown-line{
+					background-color: #ffc68c;
+					display: block;
+					height: 4px;
+					position: relative;
+					top: 7px;
+					width: 60px;
+				}
+			}
+		}
+
+		article:nth-child(2){
+			background-color: #ffc68c;
+			left: 50%;
+			margin-top: 190px;
+			position: relative;
+			top: 50px;
+			width: 50%;
+
+			h3{
+				color: #ffffff;
+
+				.white-line{
+					background-color: #ffffff;
+					display: block;
+					height: 4px;
+					position: relative;
+					top: 7px;
+					width: 60px;
+				}
+			}
+
+		}
+	}
+}
